@@ -28,12 +28,12 @@ h1 {
     color: #32b0cd;
 }
 
-ul {
+.navBar {
+    color: #e3b062;  
     list-style: none;
     display: flex;
     width: 350px;
     justify-content: space-around; 
-    color: #e3b062;  
 }
 
 a {
@@ -45,8 +45,8 @@ a {
 /*Banner*/
 .banner {
     width: 100%;
-    height: 500px;
-    background-image: url(img/bg-jelly-fish-para_outras_pags.png);
+    height: 535px;
+    background-image: url(../img/bg-jelly-fish-para_outras_pags.png);
     background-size: cover;
     color: white;
 }
@@ -58,7 +58,7 @@ a {
 }
 
 p {
-    font-size: 40px;
+    font-size: 30px;
     width: 25%;
 }
 
@@ -70,29 +70,51 @@ span {
 /*Social*/
 .social .container {
     justify-content: space-around;
+    width: 100%;
 }
 
 .social .container img {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px; 
 }
 
 .card {
-    background-color: #cdcdcd;
-    border-radius: 10px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.container .card p {
+    width: 100%;
+    background-color: #e5e5e5;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.social .container .card p {
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+.card h1 {
+    color: #d62e71;
+}
 /*Social*/
+
+/*Footer*/
+.footer {
+    width: 100%;
+    height: 138px;
+    background-color: #32a7b1;
+    color: white;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    font-size: 13px;
+    padding-top: 50px;
+    padding-left: 45px;
+}
+/*Footer*/
 
 
